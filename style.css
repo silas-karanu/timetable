@@ -1,14 +1,18 @@
-/* style.css */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     margin: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px auto;
+    background: white;
 }
 
 th, td {
@@ -17,11 +21,16 @@ th, td {
     text-align: center;
 }
 
-.break, .lunch {
-    background-color: #f4b183;
-    font-weight: bold;
+th {
+    background-color: #4CAF50;
+    color: white;
 }
 
-h2 {
-    margin-bottom: 20px;
+td {
+    background-color: #f9f9f9;
+}
+
+td[rowspan] {
+    background-color: #e0e0e0;
+    font-weight: bold;
 }
